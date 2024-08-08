@@ -1,0 +1,30 @@
+.headerContainer {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+/* Стиль для списку навігації */
+.navList {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль для кожного пункту списку */
+.navItem {
+    margin: 0 15px;
+}
+
+/* Стиль для посилань */
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Стиль для посилань при наведенні курсора */
+.navLink:hover {
+    text-decoration: underline;
+}
